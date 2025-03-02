@@ -1,0 +1,72 @@
+
+
+<br>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CNN Style Navbar</title>
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+        .navbar .logo {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            padding:  5px;
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            font-size: 14px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .navbar .spacer {
+            flex-grow: 1;
+        }
+        .navbar .icons {
+            display: flex;
+            align-items: center;
+        }
+        .navbar .icons img {
+            width: 20px;
+            margin-left: 10px;
+            filter: invert(1);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">CNN</div>
+        <a href="#">World</a>
+        <a href="#">US Politics</a>
+        <a href="#">Business</a>
+        <a href="#">Health</a>
+        <a href="#">Entertainment</a>
+        <a href="#">Style</a>
+        <a href="#">Travel</a>
+        <a href="#">Sports</a>
+        <a href="#">Videos</a>
+        <div class="spacer"></div>
+        <div class="icons">
+            <a>edition</a>
+            <img src="search-icon.png" alt="Search">
+            <img src="user-icon.png" alt="User">
+        </div>
+    </div>
+</body>
+</html>
